@@ -18,6 +18,6 @@ public interface ItemClient {
     @GetMapping("/items")//请求方式(GetMapping)与请求路径(/items)
     List<ItemDTO> queryItemByIds(@RequestParam("ids") Collection<Long> ids);//请求参数与返回值类型
 
-    @PutMapping("/stock/deduct")
+    @PutMapping("/items/stock/deduct")
     void deductStock(@RequestBody List<OrderDetailDTO> items);
 }

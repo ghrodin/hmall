@@ -8,6 +8,6 @@ import java.util.Collection;
 @FeignClient("cart-service")//请求服务名
 public interface CartClient {
 
-    @DeleteMapping
+    @DeleteMapping("/carts")
     void deleteCartItemByIds(@RequestParam("ids") Collection<Long> ids);
 }

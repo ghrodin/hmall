@@ -1,4 +1,4 @@
-package com.hmall.gateway.filter;
+package com.hmall.gateway.filters;
 
 import com.hmall.common.exception.UnauthorizedException;
 import com.hmall.common.utils.CollUtils;

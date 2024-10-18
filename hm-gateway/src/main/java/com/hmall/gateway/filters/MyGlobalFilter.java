@@ -1,4 +1,4 @@
-package com.hmall.gateway.filter;
+package com.hmall.gateway.filters;
 
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;

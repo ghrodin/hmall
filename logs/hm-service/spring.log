@@ -142,3 +142,24 @@ com.hmall.common.exception.UnauthorizedException: 未登录
 17:02:36:937  INFO 18104 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 17:02:36:965  INFO 18104 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 17:02:37:102  INFO 18104 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.329 seconds (JVM running for 4.236)
+16:38:01:080  INFO 18612 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.23 on LAPTOP-PVVFBTR9 with PID 18612 (D:\IdeaProjects\hmall\hm-service\target\classes started by GHR in D:\IdeaProjects\hmall)
+16:38:01:083 DEBUG 18612 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:38:01:083  INFO 18612 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
+16:38:01:821  INFO 18612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:38:01:823  INFO 18612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:38:01:861  INFO 18612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+16:38:02:361  INFO 18612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+16:38:02:362  INFO 18612 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+16:38:02:362  INFO 18612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:38:02:363  INFO 18612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:38:02:367  INFO 18612 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16:38:02:374  INFO 18612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:38:02:376  INFO 18612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:38:02:503  INFO 18612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:38:02:503  INFO 18612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1379 ms
+16:38:04:571  INFO 18612 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:38:04:931  INFO 18612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+16:38:04:931  INFO 18612 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:38:04:933  INFO 18612 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:38:04:972  INFO 18612 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:38:05:162  INFO 18612 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.445 seconds (JVM running for 5.434)
